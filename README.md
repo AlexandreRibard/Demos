@@ -9,7 +9,7 @@ Include a number of OpenGL demos:
 * IBL (diffuse & specular lighting) Physically Based Rendering   =>   \PBR_IBL 
 * IBL-PBR coupled with normal mapping => \PBR_IBL_NormalMapped
 
-# To come (compatibility check needed):
+# To come :
 * Shell-based fur rendering
 * Wiki
 
@@ -17,3 +17,10 @@ Include a number of OpenGL demos:
 N.B: Code and tutorial to come
 
 N.B²: Engine is custom built in C++. Code to come. Above samples along with corresponding C++ code serve as a tutorial for said engine
+
+# Dependencies:
+* OpenGL 4.4 & GLEW (http://www.lonesock.net/soil.html)
+* GLFW (http://www.glfw.org/) / OpenGL window
+* GLM (http://glm.g-truc.net/0.9.7/index.html) / Maths
+* SOIL (http://www.lonesock.net/soil.html) / Texture Loader
+* OpenGLEngine / custom C++ OpenGL Engine
